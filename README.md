@@ -1,3 +1,5 @@
+[![structor compatible](https://img.shields.io/badge/structor%20compatible-true-0077dd.svg?style=flat)](http://helmetrex.com)
+
 ### Description
 This project is a boilerplate for Web application which uses Material UI components for building UI.
 In this project you will find many variants of components from Matarial UI, also many of them are adopted to use in compositions with each other.  
@@ -6,6 +8,8 @@ To read more details about Material UI library you can here: <a href="http://mat
 Flexbox Gird was taken as grid system. Read more about Flexbox Grid: <a href="http://flexboxgrid.com" target="blank">http://flexboxgrid.com</a>
 
 This project includes a starter file structure for Redux, prepared Webpack configuration for building, and simple ExpressJS server.
+
+<img style="width: 100%;" src="https://github.com/ipselon/material-ui-prepack/blob/master/screenshot.png"></img>
 <br/>
 <br/>
 ### Technologies and libraries
