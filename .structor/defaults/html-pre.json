@@ -1,0 +1,12 @@
+[
+  {
+    "variantName": "Default",
+    "type": "pre",
+    "children": [
+      {
+        "type": "span",
+        "text": "Preformatted text line"
+      }
+    ]
+  }
+]

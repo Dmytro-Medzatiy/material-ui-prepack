@@ -1,0 +1,11 @@
+[
+  {
+    "variantName": "Default",
+    "type": "img",
+    "props": {
+      "width": 200,
+      "height": 100,
+      "src": "http://placehold.it/200x100"
+    }
+  }
+]

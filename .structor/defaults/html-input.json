@@ -1,0 +1,10 @@
+[
+  {
+    "variantName": "Default",
+    "type": "input",
+    "props": {
+      "type": "text",
+      "placeholder": "Enter value"
+    }
+  }
+]
