@@ -1,4 +1,4 @@
-[![structor compatible](https://img.shields.io/badge/structor%20compatible-true-0077dd.svg?style=flat)](http://helmetrex.com)
+[![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.1.1-0077dd.svg?style=flat)](http://helmetrex.com)
 
 ### Description
 This project is a boilerplate for Web application which uses Material UI components for building UI.
