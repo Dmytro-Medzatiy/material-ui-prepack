@@ -1,12 +1,12 @@
 import { createStore, applyMiddleware } from 'redux';
-import thunkMiddleWare from 'redux-thunk';
 import rootReducer from '../reducers';
+import promiseMiddleware from '../middleware/promiseMiddleware.js';
 import myMiddleware from '../middleware/middleware.js';
 import initialState from './initialState.js';
 
 const createStoreWithMiddleware = applyMiddleware(
-    thunkMiddleWare,
-    myMiddleware
+    myMiddleware,
+    promiseMiddleware
 )(createStore);
 
 export default function initStore() {

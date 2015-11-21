@@ -1,8 +1,4 @@
-import {combineReducers} from 'redux';
-import applicationReducer from './applicationReducer.js';
-
+import { combineReducers } from 'redux';
 const rootReducer = combineReducers({
-    application: applicationReducer
 });
-
 export default rootReducer;

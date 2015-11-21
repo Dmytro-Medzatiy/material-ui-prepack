@@ -1,13 +1,11 @@
-import injectTapEventPlugin from "react-tap-event-plugin";
+import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
-
 require('../../src/assets/css/flexboxgrid.css');
 require('../../src/assets/css/font-awesome.css');
 require('../../src/assets/css/main.css');
-
 module.exports = {
     ReactRouter: {
-	    Link: require('react-router').Link
+        Link: require('react-router').Link
     },
     FlexboxGrid: {
         Row: require('../../src/components/FlexboxGrid/Row.jsx'),

@@ -6,7 +6,6 @@ import { createHistory } from 'history';
 import PageSet1 from './PageSet1.js';
 import PageSet2 from './PageSet2.js';
 import PageProgress from './PageProgress.js';
-import UnnamedPage3 from './UnnamedPage3.js';
 
 export default function() {
     const history = createHistory();
@@ -17,7 +16,6 @@ export default function() {
                 <Route path="/set1" component={ PageSet1 } />
                 <Route path="/set2" component={ PageSet2 } />
                 <Route path="/progress" component={ PageProgress } />
-                <Route path="/UnnamedPage3" component={ UnnamedPage3 } />
             </Route>
         </Router>
         );
