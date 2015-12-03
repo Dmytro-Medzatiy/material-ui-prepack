@@ -1,9 +1,10 @@
-[![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.2.0-0077dd.svg?style=flat)](http://helmetrex.com)
+[![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.2.x-0077dd.svg?style=flat)](http://helmetrex.com)
 
 ### Description
 This project is a boilerplate for Web application which uses Material UI components for building UI.
 In this project you will find many variants of components from Matarial UI, also many of them are adopted to use in compositions with each other.  
 To read more details about Material UI library you can here: <a href="http://material-ui.com" target="blank">http://material-ui.com</a>
+Version of Material UI library is 0.13.4
 
 Flexbox Gird was taken as grid system. Read more about Flexbox Grid: <a href="http://flexboxgrid.com" target="blank">http://flexboxgrid.com</a>
 
