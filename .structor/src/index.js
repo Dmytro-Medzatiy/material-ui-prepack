@@ -5,7 +5,8 @@ require('../../src/assets/css/font-awesome.css');
 require('../../src/assets/css/main.css');
 module.exports = {
     ReactRouter: {
-        Link: require('react-router').Link
+        Link: require('react-router').Link,
+        IndexLink: require('react-router').IndexLink
     },
     FlexboxGrid: {
         Row: require('../../src/components/FlexboxGrid/Row.jsx'),
@@ -35,6 +36,7 @@ module.exports = {
         Tabs: require('material-ui').Tabs,
         Tab: require('material-ui').Tab,
         TextField: require('material-ui').TextField,
+        AutoComplete: require('material-ui').AutoComplete,
         SelectField: require('material-ui').SelectField,
         TimePicker: require('material-ui').TimePicker
     },
