@@ -1,4 +1,4 @@
-[![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.2.x-0077dd.svg?style=flat)](http://helmetrex.com)
+[![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.2.3-0077dd.svg?style=flat)](http://helmetrex.com)
 
 ### Description
 This project is a boilerplate for Web application which uses Material UI components for building UI.
@@ -9,6 +9,21 @@ Version of Material UI library is 0.13.4
 Flexbox Gird was taken as grid system. Read more about Flexbox Grid: <a href="http://flexboxgrid.com" target="blank">http://flexboxgrid.com</a>
 
 This project includes a starter file structure for Redux, prepared Webpack configuration for building, and simple ExpressJS server.
+
+### Documentation
+
+Structor's documentation:
+
+* [Structor's component model representation](https://github.com/ipselon/structor/wiki/Structor's-component-model-representation)
+* [Generators metadata overview](https://github.com/ipselon/structor/wiki/Generators-metadata-overview)
+* [Structor shortcuts](https://github.com/ipselon/structor/wiki/Structor-shortcuts)
+
+Prepack documentation
+
+* [Generator for React component](https://github.com/ipselon/material-ui-prepack/wiki/Generator-for-React-component)
+* [Generator for smart Redux component (container)](https://github.com/ipselon/material-ui-prepack/wiki/Generator-for-smart-Redux-component-(container))
+* [Migration guide](https://github.com/ipselon/material-ui-prepack/wiki/Migration-guide)
+
 
 <img style="width: 100%;" src="https://github.com/ipselon/material-ui-prepack/blob/master/screenshot.png"></img>
 <br/>
