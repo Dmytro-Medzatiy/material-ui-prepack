@@ -1,1 +1,39 @@
-[{"variantName":"Default","type":"SelectField","props":{"menuItems":[{"payload":"1","text":"Never"},{"payload":"2","text":"Every Night"},{"payload":"3","text":"Weeknights"},{"payload":"4","text":"Weekends"},{"payload":"5","text":"Weekly"}]},"children":[]}]
+[
+  {
+    "variantName": "default",
+    "type": "SelectField",
+    "props": {
+      "value": 3,
+      "data-umyid": "196"
+    },
+    "children": [
+      {
+        "type": "MenuItem",
+        "props": {
+          "primaryText": "MenuItem 1",
+          "value": 1,
+          "data-umyid": "197"
+        },
+        "children": []
+      },
+      {
+        "type": "MenuItem",
+        "props": {
+          "primaryText": "MenuItem 2",
+          "value": 2,
+          "data-umyid": "548"
+        },
+        "children": []
+      },
+      {
+        "type": "MenuItem",
+        "props": {
+          "primaryText": "MenuItem 3",
+          "value": 3,
+          "data-umyid": "549"
+        },
+        "children": []
+      }
+    ]
+  }
+]

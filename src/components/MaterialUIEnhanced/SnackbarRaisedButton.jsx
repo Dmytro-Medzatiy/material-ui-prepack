@@ -1,13 +1,13 @@
 
 import React, { Component, PropTypes } from 'react';
 
-import { RaisedButton } from 'material-ui';
-import { Snackbar } from 'material-ui';
+import { RaisedButton, Snackbar } from 'material-ui';
 
 class SnackbarRaisedButton extends Component {
 
     constructor(props, content) {
-        super(props, content); // this.state = {count: props.initialCount};
+        super(props, content);
+        this.state = {snackbarOpen: false};
         this.handleAction = this.handleAction.bind(this);
         this.handleClick = this.handleClick.bind(this);
     }
@@ -17,7 +17,7 @@ class SnackbarRaisedButton extends Component {
     }
 
     handleClick(e) {
-        this.refs.snackbar.show();
+        this.setState({snackbarOpen: !this.state.snackbarOpen})
     }
 
     render() {
@@ -26,11 +26,12 @@ class SnackbarRaisedButton extends Component {
             <div {...this.props}>
                 <RaisedButton label={label} onTouchTap={this.handleClick}></RaisedButton>
                 <Snackbar
-                    ref="snackbar"
+                    open={this.state.snackbarOpen}
                     message="Event added to your calendar"
                     action="undo"
                     autoHideDuration={autoHideDuration}
-                    onActionTouchTap={this.handleAction}/>
+                    onActionTouchTap={this.handleAction}
+                    onRequestClose={this.handleClick}/>
             </div>
             );
     }

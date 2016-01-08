@@ -1,1 +1,1 @@
-Component does not have notes
+Component for demo

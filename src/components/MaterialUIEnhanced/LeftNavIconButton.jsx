@@ -1,40 +1,37 @@
 
 import React, { Component, PropTypes } from 'react';
 
-import { IconButton } from 'material-ui';
-import { MenuItem } from 'material-ui';
-import { LeftNav } from 'material-ui';
+import { IconButton, Divider, MenuItem, LeftNav } from 'material-ui';
 
 class LeftNavIconButton extends Component {
 
     constructor(props, content) {
-        super(props, content); // this.state = {count: props.initialCount};
+        super(props, content);
+        this.state = {leftNavOpen: false};
         this.showLeftNavClick = this.showLeftNavClick.bind(this);
     }
 
     showLeftNavClick() {
-        this.refs.leftNav.toggle();
+        this.setState({leftNavOpen: !this.state.leftNavOpen})
     }
 
     render() {
-
-        let menuItems = [
-            { route: 'get-started', text: 'Get Started' },
-            { route: 'customization', text: 'Customization' },
-            { route: 'components', text: 'Components' },
-            { type: MenuItem.Types.SUBHEADER, text: 'Resources' },
-            { type: MenuItem.Types.LINK, payload: 'https://github.com/callemall/material-ui', text: 'GitHub' },
-            { text: 'Disabled', disabled: true },
-            { type: MenuItem.Types.LINK, payload: 'https://www.google.com', text: 'Disabled Link', disabled: true }
-        ];
-
-        // const { propOne, propTwo } = this.props;
         return (
             <div style={{display: 'inline-block'}}>
                 <IconButton {...this.props} onTouchTap={this.showLeftNavClick}>
                     { this.props.children }
                 </IconButton>
-                <LeftNav ref="leftNav" docked={this.props.docked} menuItems={menuItems} />
+                <LeftNav
+                    docked={this.props.docked}
+                    width={200}
+                    open={this.state.leftNavOpen}
+                    onRequestChange={this.showLeftNavClick}>
+                    <MenuItem primaryText="Get Started"/>
+                    <MenuItem primaryText="Customization"/>
+                    <MenuItem primaryText="Components"/>
+                    <Divider/>
+                    <MenuItem primaryText="Resources"/>
+                </LeftNav>
             </div>
         );
     }

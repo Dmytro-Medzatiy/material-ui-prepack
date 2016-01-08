@@ -14,6 +14,7 @@ import { RaisedButton } from 'material-ui';
 import { FloatingActionButton } from 'material-ui';
 import { DatePicker } from 'material-ui';
 import { DropDownMenu } from 'material-ui';
+import { MenuItem } from 'material-ui';
 import { FontIcon } from 'material-ui';
 import { Paper } from 'material-ui';
 import { Slider } from 'material-ui';
@@ -22,6 +23,7 @@ import { RadioButtonGroup } from 'material-ui';
 import { RadioButton } from 'material-ui';
 import { Toggle } from 'material-ui';
 import { TextField } from 'material-ui';
+import { AutoComplete } from 'material-ui';
 import { SelectField } from 'material-ui';
 import { TimePicker } from 'material-ui';
 import SnackbarRaisedButton from '../components/MaterialUIEnhanced/SnackbarRaisedButton.jsx';
@@ -33,7 +35,7 @@ import { CardActions } from 'material-ui';
 import { CardText } from 'material-ui';
 import { List } from 'material-ui';
 import { ListItem } from 'material-ui';
-import { ListDivider } from 'material-ui';
+import { Divider } from 'material-ui';
 import FlatButtonDialog from '../components/MaterialUIDialogs/FlatButtonDialog.jsx';
 import DemoAppBar from '../components/DemoGroup/DemoAppBar.jsx';
 
@@ -57,7 +59,7 @@ class PageSet1 extends Component {
                                         params={ this.props.params }><span params={ this.props.params }>Avatars</span></h3>
                                     <div style={ {    padding: '1em'} } params={ this.props.params }>
                                         <div style={ {    display: 'block',    padding: '0.5em'} } params={ this.props.params }>
-                                            <Avatar src="http://lorempixel.com/output/people-q-c-150-150-9.jpg" params={ this.props.params }></Avatar>
+                                            <Avatar src="http://lorempixel.com/100/100/people" params={ this.props.params }></Avatar>
                                         </div>
                                         <div style={ {    display: 'block',    padding: '0.5em'} } params={ this.props.params }>
                                             <Avatar icon={ <FontIcon className="fa fa-star" params={ this.props.params }></FontIcon> }
@@ -173,9 +175,9 @@ class PageSet1 extends Component {
                                                       rightIcon={ <FontIcon className="fa fa-info-circle" params={ this.props.params }></FontIcon> }
                                                       params={ this.props.params }></ListItem>
                                             <ListItem primaryText="Brendan Lim"
-                                                      leftAvatar={ <Avatar src="http://lorempixel.com/output/people-q-c-150-150-9.jpg" params={ this.props.params }></Avatar> }
+                                                      leftAvatar={ <Avatar src="http://lorempixel.com/100/100/people" params={ this.props.params }></Avatar> }
                                                       params={ this.props.params }></ListItem>
-                                            <ListDivider params={ this.props.params }></ListDivider>
+                                            <Divider params={ this.props.params }></Divider>
                                             <ListItem primaryText="Brendan Lim"
                                                       secondaryText="Jan 28, 2014"
                                                       leftAvatar={ <Avatar icon={ <FontIcon className="fa fa-folder" params={ this.props.params }></FontIcon> }
@@ -183,7 +185,7 @@ class PageSet1 extends Component {
                                                                            params={ this.props.params }></Avatar> }
                                                       rightIcon={ <FontIcon className="fa fa-info-circle" params={ this.props.params }></FontIcon> }
                                                       params={ this.props.params }></ListItem>
-                                            <ListDivider inset={ true } params={ this.props.params }></ListDivider>
+                                            <Divider params={ this.props.params }></Divider>
                                             <ListItem primaryText="Brendan Lim"
                                                       secondaryText={ <p params={ this.props.params }>
                                                                           <span params={ this.props.params }>I'll be in your neighborhood doing errands this weekend. Do you want to grab brunch?</span>
@@ -192,7 +194,7 @@ class PageSet1 extends Component {
                                                       rightIcon={ <FontIcon className="fa fa-info-circle" params={ this.props.params }></FontIcon> }
                                                       insetChildren={ true }
                                                       params={ this.props.params }></ListItem>
-                                            <ListDivider inset={ true } params={ this.props.params }></ListDivider>
+                                            <Divider params={ this.props.params }></Divider>
                                             <ListItem primaryText="Brendan Lim"
                                                       secondaryText="Jan 28, 2014"
                                                       rightIcon={ <FontIcon className="fa fa-info-circle" params={ this.props.params }></FontIcon> }
@@ -224,7 +226,7 @@ class PageSet1 extends Component {
                                                       params={ this.props.params }></ListItem>
                                             <ListItem primaryText="Brendan Lim"
                                                       leftCheckbox={ <Checkbox params={ this.props.params }></Checkbox> }
-                                                      rightAvatar={ <Avatar src="http://lorempixel.com/output/people-q-c-150-150-9.jpg" params={ this.props.params }></Avatar> }
+                                                      rightAvatar={ <Avatar src="http://lorempixel.com/100/100/people" params={ this.props.params }></Avatar> }
                                                       params={ this.props.params }></ListItem>
                                             <ListItem primaryText="Brendan Lim"
                                                       secondaryText="Jan 28, 2014"
@@ -259,7 +261,7 @@ class PageSet1 extends Component {
                                                       params={ this.props.params }></ListItem>
                                             <ListItem primaryText="Brendan Lim"
                                                       rightToggle={ <Toggle params={ this.props.params }></Toggle> }
-                                                      leftAvatar={ <Avatar src="http://lorempixel.com/output/people-q-c-150-150-9.jpg" params={ this.props.params }></Avatar> }
+                                                      leftAvatar={ <Avatar src="http://lorempixel.com/100/100/people" params={ this.props.params }></Avatar> }
                                                       params={ this.props.params }></ListItem>
                                             <ListItem primaryText="Brendan Lim"
                                                       secondaryText="Jan 28, 2014"
@@ -288,7 +290,7 @@ class PageSet1 extends Component {
                                         params={ this.props.params }><span params={ this.props.params }>Slider</span></h3>
                                     <div style={ {    padding: '1em'} } params={ this.props.params }>
                                         <div style={ {    padding: '0'} } params={ this.props.params }>
-                                            <Slider params={ this.props.params }></Slider>
+                                            <Slider name="slider1" params={ this.props.params }></Slider>
                                         </div>
                                         <div style={ {    padding: '0'} } params={ this.props.params }>
                                             <Slider name="slider"
@@ -487,9 +489,28 @@ class PageSet1 extends Component {
                                         style={ {    textAlign: 'center'} }
                                         params={ this.props.params }><span params={ this.props.params }>Select Field</span></h3>
                                     <div style={ {    padding: '1em'} } params={ this.props.params }>
-                                        <SelectField menuItems={ [{    payload: '1',    text: 'Never'}, {    payload: '2',    text: 'Every Night'}, {    payload: '3',    text: 'Weeknights'}, {    payload: '4',    text: 'Weekends'}, {    payload: '5',    text: 'Weekly'}] }
-                                                     items={ ['qweqeqwe', 1232423, false] }
-                                                     params={ this.props.params }></SelectField>
+                                        <SelectField value={ 3 } params={ this.props.params }>
+                                            <MenuItem primaryText="MenuItem 1"
+                                                      value={ 1 }
+                                                      params={ this.props.params }></MenuItem>
+                                            <MenuItem primaryText="MenuItem 2"
+                                                      value={ 2 }
+                                                      params={ this.props.params }></MenuItem>
+                                            <MenuItem primaryText="MenuItem 3"
+                                                      value={ 3 }
+                                                      params={ this.props.params }></MenuItem>
+                                        </SelectField>
+                                    </div>
+                                </Paper>
+                                <Paper style={ {    width: '100%'} }
+                                       zDepth={ 1 }
+                                       rounded={ true }
+                                       params={ this.props.params }>
+                                    <h3 className="text-center"
+                                        style={ {    textAlign: 'center'} }
+                                        params={ this.props.params }><span params={ this.props.params }>Autocomplete</span></h3>
+                                    <div style={ {    padding: '1em'} } params={ this.props.params }>
+                                        <AutoComplete dataSource={ ['Canada', 'Australia', 'USA', 'Ukraine', 'Sweden'] } params={ this.props.params }></AutoComplete>
                                     </div>
                                 </Paper>
                             </Box>
@@ -559,7 +580,17 @@ class PageSet1 extends Component {
                                         params={ this.props.params }><span params={ this.props.params }>Dropdown Menu</span></h3>
                                     <div style={ {    padding: '1em'} } params={ this.props.params }>
                                         <div style={ {    display: 'block',    padding: '0.5em'} } params={ this.props.params }>
-                                            <DropDownMenu menuItems={ [{    payload: '1',    text: 'Never'}, {    payload: '2',    text: 'Every Night'}, {    payload: '3',    text: 'Weeknights'}, {    payload: '4',    text: 'Weekends'}, {    payload: '5',    text: 'Weekly'}] } params={ this.props.params }></DropDownMenu>
+                                            <DropDownMenu value={ 3 } params={ this.props.params }>
+                                                <MenuItem primaryText="MenuItem 1"
+                                                          value={ 1 }
+                                                          params={ this.props.params }></MenuItem>
+                                                <MenuItem primaryText="MenuItem 2"
+                                                          value={ 2 }
+                                                          params={ this.props.params }></MenuItem>
+                                                <MenuItem primaryText="MenuItem 3"
+                                                          value={ 3 }
+                                                          params={ this.props.params }></MenuItem>
+                                            </DropDownMenu>
                                         </div>
                                     </div>
                                 </Paper>
@@ -592,7 +623,7 @@ class PageSet1 extends Component {
                                                 <CardMedia overlay={ <CardTitle title="Title"
                                                                                 subtitle="Subtitle"
                                                                                 params={ this.props.params }></CardTitle> } params={ this.props.params }>
-                                                    <img src="http://lorempixel.com/600/337/nature/" params={ this.props.params }></img>
+                                                    <img src="http://lorempixel.com/600/400/nature/" params={ this.props.params }></img>
                                                 </CardMedia>
                                                 <CardTitle title="Title"
                                                            subtitle="Subtitle"

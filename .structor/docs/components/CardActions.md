@@ -1,6 +1,3 @@
-```
-  <CardActions>
-    <FlatButton label="Action1"/>
-    <FlatButton label="Action2"/>
-  </CardActions>
-```
+### CardAction
+
+<a href="http://www.material-ui.com/#/components/card" target="_blank">Open help</a>

@@ -1,13 +1,15 @@
 
 import React, { Component, PropTypes } from 'react';
 
-import { FlatButton } from 'material-ui';
-import { Dialog } from 'material-ui';
+import { FlatButton, Dialog } from 'material-ui';
 
 class FlatButtonDialog extends Component {
 
     constructor(props, content) {
-        super(props, content); // this.state = { someProp: 'Default' };
+        super(props, content);
+        this.state = {
+            open: false
+        };
         this.onDialogSubmit = this.onDialogSubmit.bind(this);
         this.onDialogCancel = this.onDialogCancel.bind(this);
         this.handleShowDialog = this.handleShowDialog.bind(this);
@@ -25,28 +27,39 @@ class FlatButtonDialog extends Component {
                 this.refs.dialog.dismiss();
             }
         } else {
-            this.refs.dialog.dismiss();
+            this.setState({open: false});
         }
     }
 
     handleShowDialog(){
-        this.refs.dialog.show();
-    };
+        this.setState({open: true});
+    }
 
     render() {
-        let standardActions = [
-            { text: 'Cancel' },
-            { text: 'Submit', onTouchTap: this.onDialogSubmit, ref: 'submit' }
+
+        const actions = [
+            <FlatButton
+                label="Cancel"
+                secondary={true}
+                onTouchTap={this.onDialogCancel} />,
+            <FlatButton
+                label="Submit"
+                primary={true}
+                keyboardFocused={true}
+                onTouchTap={this.onDialogSubmit} />,
         ];
+
         const { dialogTitle, modal } = this.props;
         return (
             <div style={{display: 'inline-block'}}>
                 <FlatButton {...this.props} onTouchTap={this.handleShowDialog}/>
                 <Dialog
-                    ref="dialog"
+                    open={this.state.open}
                     title={dialogTitle}
-                    actions={standardActions}
-                    modal={modal} autoDetectWindowHeight={true}>
+                    actions={actions}
+                    modal={modal}
+                    autoDetectWindowHeight={true}
+                    onRequestClose={this.onDialogCancel}>
                     <div>
                         <p><span>Change content of this Dialog</span></p>
                     </div>

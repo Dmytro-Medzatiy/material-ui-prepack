@@ -21,6 +21,8 @@ module.exports = {
         FloatingActionButton: require('material-ui').FloatingActionButton,
         DatePicker: require('material-ui').DatePicker,
         DropDownMenu: require('material-ui').DropDownMenu,
+        Menu: require('material-ui').Menu,
+        MenuItem: require('material-ui').MenuItem,
         FontIcon: require('material-ui').FontIcon,
         SvgIcon: require('material-ui').SvgIcon,
         IconButton: require('material-ui').IconButton,
@@ -59,7 +61,7 @@ module.exports = {
     MaterialUIList: {
         List: require('material-ui').List,
         ListItem: require('material-ui').ListItem,
-        ListDivider: require('material-ui').ListDivider
+        Divider: require('material-ui').Divider
     },
     MaterialUIDialogs: {
         FlatButtonDialog: require('../../src/components/MaterialUIDialogs/FlatButtonDialog.jsx')
