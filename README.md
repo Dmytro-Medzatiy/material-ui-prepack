@@ -1,4 +1,4 @@
-[![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.2.4-0077dd.svg?style=flat)](http://helmetrex.com)
+[![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.2.7-0077dd.svg?style=flat)](http://helmetrex.com)
 
 This repo is a [Structor](https://github.com/ipselon/structor/) prepack for a Material Design/Flexbox Grid/React/Redux/Webpack webapp. Structor is a GUI for starting React/Redux projects. It is flexible enough to generate some quick boilerplate, or the majority of the app. 
 
