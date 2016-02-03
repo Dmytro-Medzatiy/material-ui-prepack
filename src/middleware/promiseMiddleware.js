@@ -1,5 +1,5 @@
 import { isFSA } from 'flux-standard-action';
-import uniqueId from 'lodash/utility/uniqueId';
+import _ from 'lodash';
 
 function isPromise(val) {
   return val && typeof val.then === 'function';
@@ -14,7 +14,7 @@ export default function promiseMiddleware({ dispatch }) {
     }
 
     if (isPromise(action.payload)) {
-      const sequenceId = uniqueId();
+      const sequenceId = _.uniqueId();
 
       dispatch({
         ...action,
