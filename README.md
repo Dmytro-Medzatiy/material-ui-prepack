@@ -15,6 +15,7 @@ The prefered method of using this boilerplate is:
 
 ```
 mkdir project-name && cd project-name
+
 structor
 ```
 Then use the GUI at localhost:2222/structor to pick this template.
