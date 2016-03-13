@@ -2,8 +2,6 @@
 
 This repo is a [Structor](https://github.com/ipselon/structor/) prepack for a Material Design/Flexbox Grid/React/Redux/Webpack webapp. Structor is a GUI for starting React/Redux projects. It is flexible enough to generate some quick boilerplate, or the majority of the app. 
 
-<img style="width: 100%;" src="https://github.com/ipselon/material-ui-prepack/blob/master/screenshot.png"></img>
-
 Please go to [Structor's main repo](https://github.com/ipselon/structor/) for a more detailed explanation.
 
 ### Getting Started
@@ -17,6 +15,7 @@ The prefered method of using this boilerplate is:
 
 ```
 mkdir project-name && cd project-name
+
 structor
 ```
 Then use the GUI at localhost:2222/structor to pick this template.
