@@ -5,7 +5,7 @@ module.exports = [
     {
         name: "browser",
         entry: {
-            main: './src/main.js'
+            main: './src/client/main.js'
         },
         output: {
             path: './public/resources',
@@ -22,8 +22,8 @@ module.exports = [
                         plugins: ['transform-runtime', 'add-module-exports']
                     }
                 },
-                { test: /\.css$/, exclude: /node_modules/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
-                { test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)([\?]?.*)$/, exclude: /node_modules/, loader: 'url-loader' }
+                { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
+                { test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)([\?]?.*)$/, loader: 'url-loader' }
             ]
         },
         plugins: [

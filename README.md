@@ -32,36 +32,27 @@ No matter how you get this prepack, getting started is just one more step! Just 
 
 #### By Doing
 
-This project has three sample pages: ```/set1```, ```/set2```, and ```/progress```. You can make changes to them and export the project code with the "Export project" option from the main menu. You then have a ready-to-go React/Redux app, just:
+This project has one sample page: ```home```. You can make changes to it and export the project code with the "Export project" option from the main menu. You then have a ready-to-go React/Redux app, just:
 
 * Run command: ```npm run build```
 * Run command: ```node ./server.js```
 * Go to ```http://localhost:3000```
-
-#### Videos
-
-* [Fetch data from GitHub | Part 1](https://www.youtube.com/watch?v=AY65e6Ry_rY)
-* [Fetch data from GitHub | Part 2](https://www.youtube.com/watch?v=JLz8B0XJPyk)
-* [Speed designing of ToDo list](https://www.youtube.com/watch?v=PggnIYdaJFI&list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1&index=3)
-* [How to create login menu to Facebook and GooglePlus](https://www.youtube.com/watch?v=Ks2tWAJvDqo&list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1&index=4)
 
 #### Articles
 
 * [Structor's component model representation](https://github.com/ipselon/structor/wiki/Structor's-component-model-representation)
 * [Generators metadata overview](https://github.com/ipselon/structor/wiki/Generators-metadata-overview)
 * [Structor shortcuts](https://github.com/ipselon/structor/wiki/Structor-shortcuts)
-* [Generator for React component](https://github.com/ipselon/material-ui-prepack/wiki/Generator-for-React-component)
-* [Generator for smart Redux component (container)](https://github.com/ipselon/material-ui-prepack/wiki/Generator-for-smart-Redux-component-(container))
-* [Migration guide](https://github.com/ipselon/material-ui-prepack/wiki/Migration-guide)
 
 ### What's Inside?
 The following libraries and technlogies are used:
-* ```react```
-* ```react-router```
-* ```redux```, ```react-redux```
-* ```material-ui```
-* ```Flexbox Grid```
-* ```express```
+* ```react```,
+* ```react-router```,
+* ```redux```, ```react-redux```,
+* ```redux-saga```,
+* ```material-ui```,
+* ```Flexbox Grid```,
+* ```express```,
 * ```webpack```
  
 ```react-router``` is used as a routing mechanizm between pages in Structor. 

@@ -6,15 +6,12 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-          "data-umyid": "18"
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "19"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -24,16 +21,13 @@
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em",
                     "height": "4em"
-                  },
-                  "data-umyid": "20"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-                    "props": {
-                      "data-umyid": "21"
-                    }
+                    "props": {}
                   }
                 ]
               }
@@ -46,15 +40,12 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-          "data-umyid": "22"
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "23"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -64,16 +55,13 @@
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em",
                     "height": "4em"
-                  },
-                  "data-umyid": "24"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-                    "props": {
-                      "data-umyid": "25"
-                    }
+                    "props": {}
                   }
                 ]
               }
@@ -93,15 +81,12 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-          "data-umyid": "23"
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "24"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -111,16 +96,13 @@
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em",
                     "height": "4em"
-                  },
-                  "data-umyid": "25"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-                    "props": {
-                      "data-umyid": "26"
-                    }
+                    "props": {}
                   }
                 ]
               }
@@ -142,15 +124,12 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs-6",
-          "data-umyid": "41"
+          "className": "col-xs-6"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "42"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -159,16 +138,13 @@
                     "textAlign": "center",
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em"
-                  },
-                  "data-umyid": "43"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "center-xs col-xs-6",
-                    "props": {
-                      "data-umyid": "44"
-                    }
+                    "props": {}
                   }
                 ]
               }
@@ -188,15 +164,12 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-          "data-umyid": "23"
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "24"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -205,16 +178,13 @@
                     "textAlign": "center",
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em"
-                  },
-                  "data-umyid": "25"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
-                    "props": {
-                      "data-umyid": "26"
-                    }
+                    "props": {}
                   }
                 ]
               }
@@ -234,23 +204,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1325"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1326"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1406"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -263,23 +229,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1329"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1330"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1405"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -292,23 +254,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1333"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1334"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1407"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -328,23 +286,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1376"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1377"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1396"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -357,23 +311,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1380"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1381"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1397"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -386,23 +336,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1384"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1385"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1398"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -415,23 +361,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1388"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1389"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1399"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -444,23 +386,19 @@
       {
         "type": "Col",
         "props": {
-          "className": "col-xs",
-          "data-umyid": "1392"
+          "className": "col-xs"
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "1393"
-            },
+            "props": {},
             "children": [
               {
                 "type": "img",
                 "props": {
                   "width": 200,
                   "height": 100,
-                  "src": "http://placehold.it/200x100",
-                  "data-umyid": "1400"
+                  "src": "http://placehold.it/200x100"
                 },
                 "children": []
               }
@@ -481,15 +419,12 @@
       {
         "type": "Col",
         "props": {
-          "auto": true,
-          "data-umyid": "18"
+          "auto": true
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "19"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -498,16 +433,13 @@
                     "textAlign": "center",
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em"
-                  },
-                  "data-umyid": "20"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "col-xs (auto size)",
-                    "props": {
-                      "data-umyid": "21"
-                    }
+                    "props": {}
                   }
                 ]
               }
@@ -520,15 +452,12 @@
       {
         "type": "Col",
         "props": {
-          "auto": true,
-          "data-umyid": "44"
+          "auto": true
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "45"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -537,16 +466,13 @@
                     "textAlign": "center",
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em"
-                  },
-                  "data-umyid": "46"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "col-xs (auto size)",
-                    "props": {
-                      "data-umyid": "47"
-                    }
+                    "props": {}
                   }
                 ]
               }
@@ -559,15 +485,12 @@
       {
         "type": "Col",
         "props": {
-          "auto": true,
-          "data-umyid": "48"
+          "auto": true
         },
         "children": [
           {
             "type": "Box",
-            "props": {
-              "data-umyid": "49"
-            },
+            "props": {},
             "children": [
               {
                 "type": "p",
@@ -576,16 +499,13 @@
                     "textAlign": "center",
                     "border": "dotted 1px #f0ad4e",
                     "borderRadius": "0.2em"
-                  },
-                  "data-umyid": "50"
+                  }
                 },
                 "children": [
                   {
                     "type": "span",
                     "text": "col-xs (auto size)",
-                    "props": {
-                      "data-umyid": "51"
-                    }
+                    "props": {}
                   }
                 ]
               }

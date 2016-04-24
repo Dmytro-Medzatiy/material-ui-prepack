@@ -1,9 +1,0 @@
-{
-  "name": "ReactComponent",
-  "description": "React component, includes all children",
-  "component": {
-    "destDirPath": "src/components/{groupName}",
-    "fileExtension": "jsx",
-    "script": "component.js"
-  }
-}

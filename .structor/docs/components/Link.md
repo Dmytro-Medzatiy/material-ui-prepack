@@ -1,7 +1,1 @@
-### React Router Link component
-
-```json
-{
-    "to": "path_name"
-}
-```
+Component does not have notes

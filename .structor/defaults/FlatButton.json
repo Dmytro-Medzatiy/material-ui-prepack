@@ -22,7 +22,7 @@
     "props": {
       "label": "Link",
       "linkButton": true,
-      "href": "https://github.com/callemall/material-ui"
+      "href": "#"
     },
     "children": []
   },
