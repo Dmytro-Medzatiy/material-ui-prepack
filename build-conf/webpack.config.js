@@ -1,8 +1,7 @@
 var webpack = require("webpack");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-module.exports = [
-    {
+module.exports = {
         name: "browser",
         entry: {
             main: './src/client/main.js'
@@ -42,6 +41,5 @@ module.exports = [
         externals: {
             "jquery": "jQuery"
         }
-    }
-];
+    };
 

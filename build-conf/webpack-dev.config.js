@@ -1,8 +1,7 @@
 var webpack = require("webpack");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-module.exports = [
-    {
+module.exports = {
         name: "browser",
         entry: {
             main: './src/client/main.js'
@@ -26,12 +25,20 @@ module.exports = [
                 { test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)([\?]?.*)$/, loader: 'url-loader' }
             ]
         },
+        resolve: {
+            modules: ['node_modules'],
+            extensions: [
+                '',
+                '.js',
+                '.jsx',
+                '.react.js'
+            ]
+        },
         plugins: [
             new ExtractTextPlugin("styles.css")
         ],
         externals: {
             "jquery": "jQuery"
         }
-    }
-];
+    };
 
